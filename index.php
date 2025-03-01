@@ -1,5 +1,6 @@
 <?php 
 
+date_default_timezone_set('Asia/Jakarta');
 $lastday = mktime(0, 0, 0, 2, 26, 2025);  
 $secondpassed = time() - $lastday;  
 $daypassed = floor($secondpassed / 60 / 60 / 24);  
